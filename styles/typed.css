@@ -1,0 +1,16 @@
+.typed-cursor {
+  opacity: 1;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Custom styling for the typed text */
+.typed-text {
+  display: inline-block;
+  min-height: 1.2em; /* Prevents layout shift */
+}
